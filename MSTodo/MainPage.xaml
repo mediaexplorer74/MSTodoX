@@ -8,7 +8,22 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:Name="saveButton" Label="Добавить" Icon="Add" Click="Add_Click" />
+            <AppBarButton x:Name="editButton" Label="Изменить" Icon="Edit" Click="Edit_Click" />
+            <AppBarButton x:Name="deleteButton" Label="Удалить" Icon="Delete" Click="Delete_Click" />
+        </CommandBar>
+    </Page.BottomAppBar>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ListView x:Name="companiesList">
+            <ListView.ItemTemplate>
+                <DataTemplate  x:DataType="local:Company">
+                    <StackPanel>
+                        <TextBlock Text="{Binding Name}"  FontSize="26" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Page>

@@ -1,4 +1,6 @@
-﻿using System;
+﻿// App
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,6 +16,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.EntityFrameworkCore;
 
 namespace MSTodo
 {
@@ -22,6 +25,8 @@ namespace MSTodo
     /// </summary>
     sealed partial class App : Application
     {
+
+
         /// <summary>
         /// Инициализирует одноэлементный объект приложения. Это первая выполняемая строка разрабатываемого
         /// кода, поэтому она является логическим эквивалентом main() или WinMain().
@@ -30,6 +35,12 @@ namespace MSTodo
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            // new =)
+            using (var db = new MobileContext())
+            {
+                db.Database.Migrate();
+            }
         }
 
         /// <summary>

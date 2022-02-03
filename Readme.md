@@ -1,5 +1,10 @@
 # MS TODO
 
+Microsoft Todo , uwp superlite  
+
+Status - work in progress (just the beginning, empty project)
+
+
 ## Problem
 MS decides to "switch off" the Task "cloud" sync at mobile version of Microsoft TODO UWP app. Date:  Feb, 15 2022 :(
 

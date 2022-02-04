@@ -1,7 +1,7 @@
 ﻿using System;
 //using System.CommandLine;
 using Todo.CLI.Handlers;
-using Todo.Core;
+//using Todo.Core;
 
 namespace Todo.CLI.Commands
 {

@@ -27,10 +27,10 @@ namespace Todo.CLI.Handlers
 
         private static void PrintVersion()
         {
-            var entryAssembly = Assembly.GetEntryAssembly();
-            var entryAssemblyName = entryAssembly.GetName();
-            var description = entryAssembly.GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;
-            Debug.WriteLine($"{entryAssemblyName.Name} {entryAssemblyName.Version} - {description}");
+            string entryAssembly = "123"; //Assembly.GetEntryAssembly();
+            var entryAssemblyName = "somebody";//entryAssembly.GetName();
+            var description = "456";//entryAssembly.GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;
+            //Debug.WriteLine($"{entryAssemblyName.Name} {entryAssemblyName.Version} - {description}");
         }
     }
 }

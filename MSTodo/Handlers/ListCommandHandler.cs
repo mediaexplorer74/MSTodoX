@@ -3,8 +3,8 @@
 //using System.CommandLine.Invocation;
 using System.IO;
 using System.Reflection;
-using Todo.Core;
-using Todo.Core.Model;
+//using Todo.Core;
+//using Todo.Core.Model;
 
 namespace Todo.CLI.Handlers
 {
@@ -36,32 +36,32 @@ namespace Todo.CLI.Handlers
         }
         */
 
-        private static void Render(TodoItem item)
-        {
-            Console.Write(item.Subject);
-            Console.Write(Environment.NewLine);
-        }
+        //private static void Render(TodoItem item)
+        //{
+        //    Console.Write(item.Subject);
+        //    Console.Write(Environment.NewLine);
+        //}
 
-        private static void RenderBullet(TodoItem item)
-        {
-            ConsoleColor bulletColor;
-            char bullet;
+        //private static void RenderBullet(TodoItem item)
+        //{
+        //    ConsoleColor bulletColor;
+        //    char bullet;
 
-            if (item.IsCompleted)
-            {
-                bulletColor = ConsoleColor.Green;
-                bullet = CompletedBullet;
-            }
-            else
-            {
-                bulletColor = ConsoleColor.Red;
-                bullet = TodoBullet;
-            }
+        //    if (item.IsCompleted)
+        //    {
+        //        bulletColor = ConsoleColor.Green;
+        //        bullet = CompletedBullet;
+        //    }
+        //    else
+        //    {
+        //        bulletColor = ConsoleColor.Red;
+        //        bullet = TodoBullet;
+        //    }
 
-            var previousColor = Console.ForegroundColor;
-            Console.ForegroundColor = bulletColor;
-            Console.Write(bullet);
-            Console.ForegroundColor = previousColor;
-        }
+        //    var previousColor = Console.ForegroundColor;
+        //    Console.ForegroundColor = bulletColor;
+        //    Console.Write(bullet);
+        //    Console.ForegroundColor = previousColor;
+        //}
     }
 }

@@ -6,10 +6,10 @@ using System.IO;
 using System.Reflection;
 //using Microsoft.Extensions.Configuration;
 //using Microsoft.Extensions.DependencyInjection;
-using Todo.Core;
+//using Todo.Core;
 using Microsoft.Graph;
-using Todo.CLI.Auth;
-using Todo.Core.Repository;
+//using Todo.CLI.Auth;
+//using Todo.Core.Repository;
 using System.Threading.Tasks;
 
 namespace Todo.CLI

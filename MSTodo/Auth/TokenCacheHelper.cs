@@ -18,7 +18,7 @@ namespace Todo.CLI.Auth
         /// <summary>
         /// Path to the token cache
         /// </summary>
-        public static readonly string CacheFilePath = System.Reflection.Assembly.GetExecutingAssembly().Location + ".msalcache.bin3";
+        public static readonly string CacheFilePath = "todo it";//System.Reflection.Assembly.GetExecutingAssembly().Location + ".msalcache.bin3";
 
         private static readonly object FileLock = new object();
 

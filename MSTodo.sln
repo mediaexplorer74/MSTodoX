@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTodo", "MSTodo\MSTodo.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Core", "Todo.Core\Todo.Core.csproj", "{71F79181-14E3-4ED0-AEFA-E333D7E9E1C8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Graph.Beta", "Microsoft.Graph\Microsoft.Graph.Beta.csproj", "{307337C5-30A7-43BD-9D40-063736A137AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,26 @@ Global
 		{71F79181-14E3-4ED0-AEFA-E333D7E9E1C8}.Release|x64.Build.0 = Release|Any CPU
 		{71F79181-14E3-4ED0-AEFA-E333D7E9E1C8}.Release|x86.ActiveCfg = Release|Any CPU
 		{71F79181-14E3-4ED0-AEFA-E333D7E9E1C8}.Release|x86.Build.0 = Release|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Debug|ARM.Build.0 = Debug|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Debug|x64.Build.0 = Debug|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Debug|x86.Build.0 = Debug|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Release|ARM.ActiveCfg = Release|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Release|ARM.Build.0 = Release|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Release|ARM64.Build.0 = Release|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Release|x64.ActiveCfg = Release|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Release|x64.Build.0 = Release|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Release|x86.ActiveCfg = Release|Any CPU
+		{307337C5-30A7-43BD-9D40-063736A137AB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

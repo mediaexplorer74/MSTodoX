@@ -1,14 +1,13 @@
-﻿using InquirerCS;
+﻿//
+
 using System;
 using System.Collections.Generic;
-//using System.CommandLine;
-//using System.CommandLine.Invocation;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using Todo.Core;
-using Todo.Core.Model;
+//using Todo.Core;
+//using Todo.Core.Model;
 
 namespace Todo.CLI.Handlers
 {
@@ -42,10 +41,10 @@ namespace Todo.CLI.Handlers
         }
         */
 
-        private static void DeleteItems(ITodoItemRepository todoItemRepository, IEnumerable<TodoItem> selectedItems)
-        {
-            Task.WaitAll(selectedItems.Select(item => todoItemRepository.DeleteAsync(item)).ToArray());
-            Console.Clear();
-        }
+        //private static void DeleteItems(ITodoItemRepository todoItemRepository, IEnumerable<TodoItem> selectedItems)
+        //{
+        //    Task.WaitAll(selectedItems.Select(item => todoItemRepository.DeleteAsync(item)).ToArray());
+        //    Console.Clear();
+        //}
     }
 }

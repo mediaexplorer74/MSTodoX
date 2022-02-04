@@ -3,8 +3,8 @@
 //using System.CommandLine.Invocation;
 using System.IO;
 using System.Reflection;
-using Todo.Core;
-using Todo.Core.Model;
+//using Todo.Core;
+//using Todo.Core.Model;
 
 namespace Todo.CLI.Handlers
 {

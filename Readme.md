@@ -1,6 +1,6 @@
 # MS TODO
 
-Microsoft Todo , early berd / superlite  
+Microsoft Todo (XF proto), early bird / superlite  
 
 Status - work in progress (just the beginning...)
 

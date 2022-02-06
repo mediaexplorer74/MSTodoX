@@ -1,6 +1,6 @@
 # MS TODO
 
-Microsoft Todo , uwp superlite  
+Microsoft Todo , early berd / superlite  
 
 Status - work in progress (just the beginning...)
 
@@ -11,7 +11,8 @@ Substatus : re-assembling MSGraph lib
 ![Shot 2](Images/shot2.png)
 
 ## Architecture
-![Topology](DOCs/Topology.png)
+![Topology 1](DOCs/Topology1.png)
+![Topology 2](DOCs/Topology2.png)
 
 
 ## Problem
@@ -26,4 +27,3 @@ https://docs.microsoft.com/en-us/graph/use-the-api
 
 https://docs.microsoft.com/en-us/graph/api/resources/todo-overview?view=graph-rest-1.0
 
-https://github.com/mehmetseckin/todo-cli

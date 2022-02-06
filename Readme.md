@@ -7,7 +7,6 @@ Status - work in progress (just the beginning...)
 Substatus : re-assembling MSGraph lib
 
 ## Screenshots
-![Shot 1](Images/shot1.png)
 ![Shot 2](Images/shot2.png)
 
 ## Architecture

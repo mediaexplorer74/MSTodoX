@@ -1,18 +1,16 @@
-# MS TODO
-
-Microsoft Todo (XF proto), early bird / superlite  
+# MSTodoX
+Microsoft Todo Xamarin Forms proto / draft / early bird / superlite ver. 
 
 Status - work in progress (just the beginning...)
 
 Substatus : re-assembling MSGraph lib
 
 ## Screenshots
-![Shot](Images/shot.png)
+![Shot](Images/shot1.png)
 
 ## Architecture
-![Topology 1](DOCs/Topology1.png)
-![Topology 2](DOCs/Topology2.png)
-
+![Topology 1](Artwork/Topology1.png)
+![Topology 2](Artwork/Topology2.png)
 
 ## Problem
 MS decides to "switch off" the Task "cloud" sync at mobile version of Microsoft TODO UWP app. Date:  Feb, 15 2022 :(

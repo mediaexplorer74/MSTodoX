@@ -1,6 +1,6 @@
-Microsoft Graph Beta SDK .NET
+MSTodoX
 
-Copyright 2022 Microsoft Corporation
+Copyright 2022 Miediaexplorer
 
 All right reserved.
 

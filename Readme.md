@@ -11,10 +11,11 @@ Dev. engine: Xamarin Forms
 ![Topology 2](Artwork/Topology2.png)
 
 ## Status
+- UWP / Android / iOS "platforms"
 - "Projects" list added only (draft)
 - No task list yet, no task control :(
-- W10M compatibility added
 - Settings Page added
+- Min. W10M os build descreased to 10570 (hello, Project Astoria!)
 
 ## Problem
 MS decides to "switch off" the Task "cloud" sync at mobile version of Microsoft TODO UWP app. 

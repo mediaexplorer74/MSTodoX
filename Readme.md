@@ -14,11 +14,11 @@ Dev. engine: Xamarin Forms
 - UWP / Android / iOS "platforms"
 - "Projects" list added only (draft)
 - No task list yet, no task control :(
-- Settings Page added
+- Settings Page added... and some other pages added for future...
 - Min. W10M os build descreased to 10570 (hello, Project Astoria!)
 
 ## Problem
-MS decides to "switch off" the Task "cloud" sync at mobile version of Microsoft TODO UWP app. 
+MS decided to "switch off" the Task "cloud" sync at mobile version of Microsoft TODO UWP app. 
 Date:  Feb, 15 2022.
 
 MS ToDo fow W10M needed to task syncing via Microsoft Graph.

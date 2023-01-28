@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="MSTodoX2" Publisher="CN=mediaexplorer" Version="2.1.1.0" />
+  <Identity Name="ME.MSTodoX2" Publisher="CN=Admin" Version="2.2.2.0" />
   <mp:PhoneIdentity PhoneProductId="f736c880-f105-8899-a715-4bf328871f50" PhonePublisherId="10001000-0040-0988-8890-1f5009000000" />
   <Properties>
-    <DisplayName>MSTodoX 2.1</DisplayName>
+    <DisplayName>MSTodoX 2.2</DisplayName>
     <PublisherDisplayName>mediaexplorer</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>

@@ -22,12 +22,32 @@
                    VerticalOptions="Start"
                    HorizontalTextAlignment="Center"
                    HorizontalOptions="FillAndExpand" />
-           
-           <BoxView Color="Transparent"
+
+            <!--Transparent"
+                <BoxView Color="Green"
                      VerticalOptions="FillAndExpand"
-                     HorizontalOptions="FillAndExpand" />
-           
-            <StackLayout x:Name="slUser"
+                     HorizontalOptions="FillAndExpand" /-->
+
+            <StackLayout>
+
+                <!-- Place new controls here -->
+                
+                <Label Text="Welcome to TodoistX Application!" 
+                   HorizontalOptions="Center" />
+                
+                <Button Text="Browse projects" 
+                    Clicked="Browse_OnClicked"/>
+                
+                <!--Label x:Name="CoordLabel"
+                   Text="Waitting for Location service"
+                   HorizontalOptions="Center" /-->
+                
+                <Label Text="Список моделей" HorizontalOptions="Center" FontSize="Large" />
+                
+                <ListView x:Name="phonesList" ItemsSource="{Binding Phones}" />
+            </StackLayout>
+
+            <!--StackLayout x:Name="slUser"
                          IsVisible="False"
                          Padding="5,10">
                 <StackLayout Orientation="Horizontal">
@@ -60,10 +80,12 @@
                            FontAttributes="Bold" />
                     <Label x:Name="lblWellknownListName" />
                 </StackLayout>
-            </StackLayout>
-            <BoxView Color="Transparent"
+            </StackLayout-->
+            
+            <!--BoxView Color="Blue"
                      VerticalOptions="FillAndExpand"
-                     HorizontalOptions="FillAndExpand" />
+                     HorizontalOptions="FillAndExpand" /-->
+            
             <Button x:Name="btnSignInSignOut"
                     Text="Sign in"
                     FontSize="Medium"

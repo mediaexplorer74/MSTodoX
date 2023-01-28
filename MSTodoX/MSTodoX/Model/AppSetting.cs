@@ -4,7 +4,7 @@ namespace MSTodoX.Model
 {
     class AppSetting
     {
-        public static string DbFileName = "TodoistX_db.sqlite";
+        public static string DbFileName = "MSTodoX_db.sqlite";
 
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }

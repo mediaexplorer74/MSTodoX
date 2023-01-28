@@ -16,6 +16,7 @@ namespace MSTodoX
         public static string AppDataDbString = string.Empty;
 
         public static IPublicClientApplication PCA = null;
+        public static AuthenticationResult authResult = null; // !
 
         /// <summary>
         /// The ClientID is the Application ID found in the portal (https://go.microsoft.com/fwlink/?linkid=2083908). 

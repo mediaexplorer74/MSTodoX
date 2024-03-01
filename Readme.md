@@ -2,7 +2,7 @@
 Microsoft Todo Xamarin Forms proto / draft / early bird / superlite ver. 
 
 ## Screenshot(s)
-![Shot](Images/shot1.png)
+![](Images/shot01.png)
 
 ## About / Problem
 MS decides to "switch off" the Task "cloud" sync at mobile version of Microsoft TODO UWP app. Date:  Feb, 15 2022.

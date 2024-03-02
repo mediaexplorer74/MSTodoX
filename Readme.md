@@ -1,10 +1,24 @@
-# MSToDoX
+# MSToDo 
 
-Branch: ui-case1 ("search of ui for MSToDoX - case 1")  
+## About
+Branch: ui-case2 (MSToDo "ui design", case 2)
 
-## Screenshot(s)
-![Shot](Images/shot1.png)
-![Shot](Images/shot2.png)
 
-##.
+## Screenshots
+![](Images/shot1.png)
+
+![](Images/shot2.png)
+
+![](Images/shot3.png)
+
+![](Images/shot4.png)
+
+## Reference(s)
+
+https://github.com/HenJigg/Xamarin.MsToDo
+
+## .
 -- mediaexplorer 2024
+
+
+
